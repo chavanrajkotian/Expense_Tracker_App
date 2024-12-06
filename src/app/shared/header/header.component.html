@@ -1,0 +1,19 @@
+<div class="container-fluid light" [appMode]="mode">
+    <div class="row">
+        <div class="col-11">
+            <span class="nav-options">App Name</span>
+            <span class="nav-options">Expenses</span>
+            <span class="nav-options">Split</span>
+            <span class="nav-options">Calculator</span>
+        </div>
+        <div class="col-1">
+            <span class="nav-settings" (click)="changeMode()">
+                <i *ngIf="this.isDarkMode" class="bi bi-brightness-high-fill"></i>
+                <i *ngIf="!this.isDarkMode" class="bi bi-moon-fill"></i>
+            </span>
+            <span class="nav-settings">
+                <i class="bi bi-translate"></i>
+            </span>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,21 @@
+@import '../../../styles/variables.scss';
+
+.col-4 > img {
+    width: 85%;
+    padding: 7%;
+    margin: 0 8%;
+}
+
+.col-4 > div {
+    padding: 6%;
+    border-radius: 2rem;
+}
+
+.light{
+    background-color: #d6ffff;
+}
+
+.dark {
+    background-color: #4d8cff;
+    color: #001b4d;
+}

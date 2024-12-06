@@ -1,0 +1,35 @@
+@import "../../../styles/variables.scss";
+
+.light{
+    background-color: $light-mode-nav-blue;
+    color: $light-mode-text;
+    box-shadow: 0 3px 5px $light-mode-box-shadow;
+}
+
+.dark{
+    background-color: $dark-mode-nav-blue;
+    color: $dark-mode-text;
+    box-shadow: 0 3px 5px black;
+}
+
+.nav-options{
+    display: inline-block;
+    padding: 1% 2%;
+    cursor: pointer;
+}
+
+.nav-options:first-child{
+    font-weight: bold;
+}
+
+.nav-settings{
+    display: inline-block;
+    padding: 5% 10%;
+    cursor: pointer;
+}
+
+.col-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
